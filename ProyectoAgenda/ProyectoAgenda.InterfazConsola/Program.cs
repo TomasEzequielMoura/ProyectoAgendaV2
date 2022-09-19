@@ -11,27 +11,22 @@ namespace Agenda.Consola
     {
         static void Main(string[] args)
         {
-            //Agenda.Dominio.Entidades.Contacto contacto1 = new Agenda.Dominio.Entidades.Contacto("Cecilia","Lopez","1234","moldes 123", DateTime.Now.AddYears(-35));
+            // INSTANCIA DE CONTACTO EMPRESA
+            Contacto contacto1 = new ContactoEmpresa(10, 10, 10, "asd", DateTime.Now.AddYears(-35));
+            ContactoEmpresa contacto11 = new ContactoEmpresa(10, 10, 10, "asd", DateTime.Now.AddYears(-35));
 
-            //Agenda.Dominio.Entidades.Contacto contacto2 = new Agenda.Dominio.Entidades.Contacto("Carlos", "Landa", "789456", "11 de septiembre", DateTime.Now.AddYears(-21));
+            // INSTANCIA DE CONTACTO PERSONA
+            Contacto contacto2 = new ContactoPersona(10, 10, 10, "asd", "asd", DateTime.Now.AddYears(-35));
+            ContactoPersona contacto22 = (ContactoPersona)contacto2;
 
-            //Agenda.Dominio.Entidades.AgendaContactos agenda = new Agenda.Dominio.Entidades.AgendaContactos("Diario", "Electrónica", 20);
-
-            Contacto contacto1 = new Contacto("Cecilia", "Lopez", "1234", "moldes 123", DateTime.Now.AddYears(-35));
-            Contacto contacto2 = new Contacto("Cecilia2", "Lopez2", "12342", "moldes 1232", DateTime.Now.AddYears(-35));
-            Contacto contacto3 = new Contacto("Cecilia3", "Lopez3", "12343", "moldes 1233", DateTime.Now.AddYears(-35));
-            //AgendaContactos agenda = new AgendaContactos("Diario", "Electrónica", 20);
-
-            //agenda.AgregarContacto(contacto1);
-            //agenda.AgregarContacto(contacto2);
-
-
+            //Contacto contacto3 = new Contacto(10, 10, 10);
+ 
             try
             {
                 AgendaContactos agendaElectronica = new AgendaContactos("Diario", "Electrónica", 20);
                 agendaElectronica.AgregarContacto(contacto1);
                 agendaElectronica.AgregarContacto(contacto2);
-                agendaElectronica.AgregarContacto(contacto3);
+                //agendaElectronica.AgregarContacto(contacto3);
                 bool consolaActiva = true;
                 while (consolaActiva)
                 {

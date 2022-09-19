@@ -6,53 +6,32 @@ using System.Threading.Tasks;
 
 namespace Agenda.Dominio.Entidades
 {
-    public class Contacto
+    public abstract class Contacto
     {
         // Constructor
-        public Contacto(string nombre, string apellido, string telefono, string direccion, DateTime fechaNacimiento)
+        public Contacto(int codigo, int llamadas, int direccion)
         {
-            _nombre = nombre;
-            _apellido = apellido;
+            _codigo = codigo;
             _direccion = direccion;
-            _telefono = telefono;
-            _fechaNacimiento = fechaNacimiento;
             _llamadas = 0;
         }
 
         // atributos
-        private string _nombre;
-        private string _apellido;
-        private string _direccion;
-        private string _telefono; // para poder que la persona ponga "+" o "-" usamos string
-        private string _log;
-        private DateTime _fechaNacimiento;
-        private int _llamadas;
+        protected int _codigo;
+        protected int _direccion;
+        protected int _llamadas;
+
 
         // propiedades
-        public string Nombre
+        public int Codigo
         {
-            get { return _nombre; }
+            get { return _codigo; }
             //set { _nombre = value; }
         }
 
-        public string Apellido
-        {
-            get { return _apellido; }
-        }
-
-        public string Direccion
+        public int Direccion
         {
             get { return _direccion; }
-        }
-
-        public string Telefono
-        {
-            get { return _telefono; }
-        }
-
-        public DateTime FechaNacimiento
-        {
-            get { return _fechaNacimiento; }
         }
 
         public int Llamadas
