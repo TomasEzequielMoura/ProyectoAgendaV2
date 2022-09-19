@@ -1,0 +1,9 @@
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\bin\Debug\ProyectoAgenda.InterfazConsola.exe.config
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\bin\Debug\ProyectoAgenda.InterfazConsola.exe
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\bin\Debug\ProyectoAgenda.InterfazConsola.pdb
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\bin\Debug\Agenda.Dominio.dll
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\bin\Debug\Agenda.Dominio.pdb
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\obj\Debug\Agenda.Consola.csproj.AssemblyReference.cache
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\obj\Debug\Agenda.Consola.csproj.CoreCompileInputs.cache
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\obj\Debug\ProyectoAgenda.InterfazConsola.exe
+E:\OneDrive\Escritorio\Tomi\facultad\4TO AÑO\2do cuatri\Construccion de aplicaciones informaticas\Github\ProyectoAgenda\ProyectoAgenda\ProyectoAgenda.InterfazConsola\obj\Debug\ProyectoAgenda.InterfazConsola.pdb
