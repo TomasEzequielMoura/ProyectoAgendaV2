@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Entidades\AgendaContactos.cs" />
     <Compile Include="Entidades\Contacto.cs" />
+    <Compile Include="Entidades\ContactoEmpresa.cs" />
+    <Compile Include="Entidades\ContactoPersona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
